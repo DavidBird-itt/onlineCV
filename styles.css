@@ -22,6 +22,11 @@ ul{
     padding: 0;
 }
 
+footer {
+    text-align: center;
+}
+
+
 li {
     margin-bottom: 7px; 
 }
@@ -35,33 +40,29 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-footer {
-    text-align: center;
-}
-
-
-header {
-    display: block;
-    margin-top: 110px;
-    margin-right: auto;
-    margin-left: auto; 
-    width:72%;
-}
-
-#aboutMe {
-    margin-top: 1000px;
-}
-
 #tabs{
 	background: #007b5e;
     color: #eee;
 }
 
-header .nav{
-    color: #e84c3d;
+.page {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.content{
+    margin: 30px;
+}
+
+table{
+    display: block;
+}
+
+
 /* Navigatoin */
+
 .nav.navbar-nav.navbar-right li a {
     color: #e84c3d;
 }
@@ -96,11 +97,34 @@ i:hover, .tab-content a:hover{
     color: #e84c3d;
 }
 
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li>a:hover,
+.nav>li>a:hover {
+    background-color: #F47321;
+    border-color: #FFFFFF;
+    color: #000;
+}
+
+.nav-pills>li>a {
+    background-color: #fff;
+    border-color: #FFFFFF;
+    color: #e84c3d;
+}
 
 /* Header */
+header {
+    display: block;
+    margin-top: 110px;
+    margin-right: auto;
+    margin-left: auto; 
+    width:72%;
+}
+
 .introText {
     display: block;
-    margin-left: 8em;
+    margin-left: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 300px;
 }
@@ -128,17 +152,6 @@ header img{
     display:block;
 }
 
-.page {
-    background-color: white;
-    padding-top: 1em;
-    padding-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.content{
-    margin: 2em;
-}
-
 /* projects */
 #projects{
     margin-top: 600px;
@@ -164,38 +177,20 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover,
-.nav-pills>li>a:hover,
-.nav>li>a:hover {
-    background-color: #F47321;
-    border-color: #FFFFFF;
-    color: #000;
 }
-
-.nav-pills>li>a {
-    background-color: #fff;
-    border-color: #FFFFFF;
-    color: #e84c3d;
-}
-
 #contact {
     width: 100%;
     text-align: center;
@@ -212,11 +207,44 @@ input[type=text], select, textarea {
     color: white;
 }
 
-
-table{
-    display: block;
-}
-
+/*Skills*/
 #skills .page{
     padding-bottom: 500px;
+}
+
+th, td { 
+    width:1000px ;
+  
+} 
+
+
+@media screen and (max-width: 1000px){   
+    #projects, #workExp, #skills, #results, #contact{
+        display: block;
+        margin-right: auto;
+        margin-left: auto; 
+        width:100%;
+        padding-top: 200px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header img{
+        width:100%;
+        
+    }
+    #headerImg{      
+        width:100%;
+        margin: 0px;
+    } 
+
+    #skills .page{
+        padding-bottom: 150px;
+    }
+
+    #workExp .page{
+        padding-bottom: 100px
+    }
 }
