@@ -1,0 +1,222 @@
+/* General */
+body, html {
+    height: 100%;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body h1{
+    color: #e84c3d;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #003153;
+}
+
+body h3{
+    color: #003153;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 7px; 
+}
+
+#projects, #workExp, #skills, #results, #contact{
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    width:72%;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+
+header {
+    display: block;
+    margin-top: 110px;
+    margin-right: auto;
+    margin-left: auto; 
+    width:72%;
+}
+
+#aboutMe {
+    margin-top: 1000px;
+}
+
+#tabs{
+	background: #007b5e;
+    color: #eee;
+}
+
+header .nav{
+    color: #e84c3d;
+}
+
+/* Navigatoin */
+.nav.navbar-nav.navbar-right li a {
+    color: #e84c3d;
+}
+
+.sidenav {
+    position: fixed;
+    list-style-type: none;
+    bottom: 0;
+}
+
+.sidenav ul{
+    list-style-type: none;
+    margin-left: 40px
+}
+
+i:hover, .tab-content a:hover{
+    color: #89241b;
+    transform: scale(1.2);
+}
+
+.vl {
+    margin-left: 50px;
+    border-left: 4px solid  #e84c3d;
+    height: 100px;
+}
+
+.sidenav i {
+    margin-top:20px;
+}
+
+.sidenav a, .tab-content a {
+    color: #e84c3d;
+}
+
+
+/* Header */
+.introText {
+    display: block;
+    margin-left: 8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 300px;
+}
+
+.introText h4{
+    color: #e84c3d;
+}
+
+header img{
+    height: 550px;
+}
+
+#headerImg {
+    float: left;
+    margin-left: 100px;
+}
+
+/*WorkExp*/
+
+#workExp .page{
+    padding-bottom: 250px;
+}
+
+.tab-content{
+    display:block;
+}
+
+.page {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content{
+    margin: 2em;
+}
+
+/* projects */
+#projects{
+    margin-top: 600px;
+}
+
+#projects img{
+    width: 300px;
+}
+
+.text {
+    display: block;
+    align-items: center;
+}
+
+
+/*Modal*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li>a:hover,
+.nav>li>a:hover {
+    background-color: #F47321;
+    border-color: #FFFFFF;
+    color: #000;
+}
+
+.nav-pills>li>a {
+    background-color: #fff;
+    border-color: #FFFFFF;
+    color: #e84c3d;
+}
+
+#contact {
+    width: 100%;
+    text-align: center;
+}
+  
+.button1 {
+    background-color: white;
+    color: #e84c3d;
+    border: 3px solid #e84c3d; /* Green */
+}
+
+.button1:hover{
+    background-color: #e84c3d;
+    color: white;
+}
+
+
+table{
+    display: block;
+}
+
+#skills .page{
+    padding-bottom: 500px;
+}
