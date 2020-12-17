@@ -73,6 +73,25 @@ table{
     bottom: 0;
 }
 
+.bottomnav{
+    position: fixed;
+    list-style-type: none;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.bottomnav li{
+    float: left;
+}
+
+.bottomnav ul a{
+    margin-right: 40px;
+    text-align: center;
+    
+}
+
 .sidenav ul{
     list-style-type: none;
     margin-left: 40px
@@ -93,7 +112,7 @@ i:hover, .tab-content a:hover{
     margin-top:20px;
 }
 
-.sidenav a, .tab-content a {
+.sidenav a, .tab-content a, .bottomnav a {
     color: #e84c3d;
 }
 
@@ -245,5 +264,14 @@ th, td {
 
     #workExp .page{
         padding-bottom: 100px
+    }
+
+    .sidenav{
+        display: none;
+    }
+
+    .bottomnav{
+        padding-left: 20%;
+        display: block;
     }
 }
